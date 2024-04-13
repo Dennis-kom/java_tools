@@ -5,7 +5,7 @@ public class Singleton {
     private String title;
 
     /**Constructor**/
-    public Singleton(){;}
+    public Singleton(){}
 
     /**Returning the instance of current object while keeps only one instance of it**/
     public static Singleton getInstance(){
