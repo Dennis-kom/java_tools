@@ -8,7 +8,7 @@ public class Singleton {
     public Singleton(){}
 
     /**Returning the instance of current object while keeps only one instance of it**/
-    public static Singleton getInstance(){
+    public static synchronized Singleton getInstance(){
 
         if(instance ==  null){
             instance = new Singleton();
